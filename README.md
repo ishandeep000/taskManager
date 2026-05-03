@@ -17,12 +17,10 @@ Full-stack MERN app for managing projects, assigning tasks, and tracking progres
 - Role-based access control at both app and project level
 
 ## Run locally
-
-1. Create `server/.env` using `server/.env.example`
-2. Install dependencies:
-   - `npm install --workspaces`
-3. Start MongoDB locally or use MongoDB Atlas
-4. Run the app:
+1. Install dependencies:
+   - `npm install`
+2. Start MongoDB locally or use MongoDB Atlas
+3. Run the app:
    - `npm run dev`
 
 Client runs on `http://localhost:5173`
