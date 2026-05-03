@@ -1,36 +1,104 @@
-# Team Task Manager
+# 🚀 Team Task Manager (MERN Stack)
 
-Full-stack MERN app for managing projects, assigning tasks, and tracking progress with role-based access control for Admin and Member users.
+A full-stack **Team Task Management System** built using the MERN stack (MongoDB, Express, React, Node.js). This application helps teams efficiently manage projects, assign tasks, and track progress with **role-based access control**.
 
-## Stack
+---
 
-- MongoDB + Mongoose
-- Express + Node.js
-- React + Vite
+## 📌 Overview
 
-## Features
+The **Team Task Manager** is designed to streamline collaboration within teams by providing a centralized platform where:
 
-- Signup and login with JWT authentication
-- Project creation and team management
-- Task creation, assignment, due dates, priority, and status tracking
-- Dashboard with task summary and overdue tracking
-- Role-based access control at both app and project level
+- Admins can manage projects and team members  
+- Members can view, update, and track assigned tasks  
+- Everyone can monitor progress through an intuitive dashboard  
 
-## Run locally
-1. Install dependencies:
-   - `npm install`
-2. Start MongoDB locally or use MongoDB Atlas
-3. Run the app:
-   - `npm run dev`
+---
 
-Client runs on `http://localhost:5173`
-Server runs on `http://localhost:5001`
+## 🛠️ Tech Stack
 
-## Demo seed
+### Frontend
+- React (Vite)
+- JavaScript (ES6+)
+- CSS / Tailwind (if used)
 
-Run `npm run seed` after configuring the server env to create demo users and sample data.
+### Backend
+- Node.js
+- Express.js
 
-Demo accounts after seed:
+### Database
+- MongoDB (Mongoose)
 
-- Admin: `admin@example.com` / `password123`
-- Member: `member@example.com` / `password123`
+### Authentication
+- JWT (JSON Web Tokens)
+
+---
+
+## ✨ Features
+
+### 🔐 Authentication & Authorization
+- Secure signup and login system
+- JWT-based authentication
+- Role-based access control (Admin & Member)
+
+### 📁 Project Management
+- Create and manage multiple projects
+- Add/remove team members
+- Assign roles within projects
+
+### ✅ Task Management
+- Create tasks with:
+  - Title & description
+  - Due dates
+  - Priority levels
+  - Status tracking (Pending, In Progress, Completed)
+- Assign tasks to team members
+
+### 📊 Dashboard
+- Overview of all tasks
+- Track overdue tasks
+- Visual summary of progress
+
+---
+
+## 📂 Project Structure
+```team-task-manager/
+│
+├── client/ # React frontend (Vite)
+├── server/ # Express backend
+├── models/ # Mongoose schemas
+├── routes/ # API routes
+├── controllers/ # Business logic
+├── middleware/ # Auth & error handling
+└── config/ # DB & environment configs
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+```
+bash
+git clone https://github.com/your-username/team-task-manager.git
+cd team-task-manager
+```
+### 2️⃣ Install Dependencies
+```
+npm install
+cd client
+npm install
+```
+### 3️⃣ Run the Application
+```
+npm run dev
+```
+### 👤 Demo Accounts
+```
+| Role   | Email                                           | Password    |
+| ------ | ----------------------------------------------- | ----------- |
+| Admin  | [admin@example.com](mailto:admin@example.com)   | password123 |
+| Member | [member@example.com](mailto:member@example.com) | password123 |
+```
+## 👨‍💻 Author
+Ishan
+Computer Science Student
