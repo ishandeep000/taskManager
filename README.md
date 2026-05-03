@@ -101,4 +101,3 @@ npm run dev
 ```
 ## 👨‍💻 Author
 Ishan
-Computer Science Student
